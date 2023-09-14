@@ -1,19 +1,31 @@
-This is a template for course IDS706 Projects. It contains:
+# Mini Project 3 IDS 760
 
-1. `.devcontainer` includes a Dockerfile and devcontainer.json. The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
+## Dataset: Apple’s stock price in the past year. It contains:
+ (using Polars Dataframe)
+- Date
+- Open price
+- High price
+- Low price
+- Adjusted close price
+- Trading volumn
 
-2. `workflows` includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
+## Summary Stats:
 
-3. `.gitignore` is used to specify which files or directories should be excluded from version control when using Git.
+- Open: Mean = 160.47, Median = 154.93, Std = 19.01
+- High: Mean = 162.26, Median = 157.44, Std = 18.77
+- Low: Mean = 158.89, Median = 153.42, Std = 19.28
+- Close: Mean = 160.65, Median = 155.32, Std = 19.01
+- Adj Close: Mean = 160.19, Median = 154.7, Std = 19.19
+- Volumn: Mean = 69482141.2, Median = 64624600, Std = 24118947.76
 
-4. `Makefile` is a configuration file used in Unix-based systems for automating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
+## AAPL stock price change over the year
 
-5. `README.md` is the instruction file for the readers.
 
-6. `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
+## This template comes from my mini project 1, which can be found on linhui7's repo.
 
-7. `test_main.py` is a test file for main.py that can successfully run in IDEs.
 
-8. `main.py` is a Python file.
 
-It used gitbuh actions to test and run. All processes are completed.
+
+
+
+
